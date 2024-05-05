@@ -1,0 +1,73 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.service-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
+
+.edit-button,
+.delete-button {
+  margin-left: 10px;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.filter {
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
